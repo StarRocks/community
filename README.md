@@ -16,7 +16,7 @@ not just code contributions. Every contribution is a growth for every member of 
 continuous contribution also gives the community a strong vitality. This is a virtuous circle of common growth. Because of this, 
 we believe that while the community is successful, it can also bring success to contributors.
 
-* ### Love can only be fully committed
+* ### Ardently love can only be fully committed
 Love to make ordinary things great. We cannot ask everyone to be full of love for participating in community building, 
 but there will always be a group of people in the community who will tirelessly answer every help question, 
 actively participate in every public discussion, and work hard to overcome every technical problem. Wrong, 
@@ -31,3 +31,20 @@ collaborate to complete the implementation and maintenance of new functions of t
 
 **User group**:The user organization of the StarRocks project is a group used to promote the exchange and 
 discovery of information related to a large number of users for a long time. Does not own the StarRocks code base.
+
+## Community contribution
+
+There are five types of starrocks' community contributions, including：
+
+1. How to file an issue， when problems and requirements are found
+
+2. How to open a pull request， when you want to add a New feture  or fix a bug
+
+3. Help improve community documents
+
+4. Help solve community problems and find out what problems you can solve
+
+5. Participate / organize community communication
+
+
+
