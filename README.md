@@ -46,6 +46,10 @@ There are five types of starrocks' community contributions, including：
 
 5. Participate / organize [community communication](https://github.com/StarRocks/community/blob/main/Contributors/guide/community-%20activity.md)
 
+
+## License
+StarRocks Community is under the Apache 2.0 license. See the [LICENSE](https://github.com/StarRocks/community/blob/main/LICENSE) file for details.
+
 ## Communicating
 
 In the starrocks community, developers and users can discuss relevant technical details and bug fixes in real time through slack.
