@@ -36,9 +36,9 @@ discovery of information related to a large number of users for a long time. Doe
 
 There are five types of starrocks' community contributions, including：
 
-1. How to file an issue， when problems and requirements are found
+1. How to file an issue，when problems and requirements are found
 
-2. How to open a pull request， when you want to add a New feture  or fix a bug
+2. How to open a pull request，when you want to add a New feture or fix a bug
 
 3. Help improve community documents
 
