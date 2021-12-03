@@ -36,15 +36,15 @@ discovery of information related to a large number of users for a long time. Doe
 
 There are five types of starrocks' community contributions, including：
 
-1. How to file an issue，when problems and requirements are found
+1. How to [file an issue](https://github.com/StarRocks/community/blob/main/Contributors/guide/file%20an%20issue.md)，when problems and requirements are found
 
-2. How to open a pull request，when you want to add a New feature or fix a bug
+2. How to [open a pull request](https://github.com/StarRocks/community/blob/main/Contributors/guide/workflow.md)，when you want to add a New feature or fix a bug
 
-3. Help improve community documents
+3. Help improve [community documents](https://github.com/StarRocks/community/blob/main/Contributors/guide/doc%20improvements.md)
 
-4. Help solve community problems and find out what problems you can solve
+4. Help solve [community problems](https://github.com/StarRocks/community/blob/main/Contributors/guide/Solve%20issues.md) and find out what problems you can solve
 
-5. Participate / organize community communication
+5. Participate / organize [community communication](https://github.com/StarRocks/community/blob/main/Contributors/guide/community-%20activity.md)
 
 ## Communicating
 
