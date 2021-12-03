@@ -27,7 +27,7 @@ this is love. We look forward to you becoming one of them and passing on your lo
 and maintenance of core contributors to the community.  
 
 + **Developer group**:Developers and community contributors of the StarRocks project, to communicate, promote, organize and 
-collaborate to complete the implementation and maintenance of new functions of the project, and solve user problems.  
+collaborate to complete the implementation and maintenance of new features of the project, and solve user problems.  
 
 + **User group**:The user organization of the StarRocks project is a group used to promote the exchange and 
 discovery of information related to a large number of users for a long time. Does not own the StarRocks code base.
