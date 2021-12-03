@@ -44,7 +44,7 @@ There are five types of starrocks' community contributions, including：
 
 4. Help solve [community issues](https://github.com/StarRocks/community/blob/main/Contributors/guide/Solve%20issues.md) and find out what issue you can solve
 
-5. Participate / organize [community communication](https://github.com/StarRocks/community/blob/main/Contributors/guide/community-%20activity.md)
+5. Participate / organize [community activity](https://github.com/StarRocks/community/blob/main/Contributors/guide/community-%20activity.md)
 
 
 ## License
