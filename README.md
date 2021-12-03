@@ -30,7 +30,7 @@ and maintenance of core contributors to the community.
 collaborate to complete the implementation and maintenance of new features of the project, and solve user problems.  
 
 + **User group**:The user organization of the StarRocks project is a group used to promote the exchange and 
-discovery of information related to a large number of users for a long time. Does not own the StarRocks code base.
+discovery of information related to a large number of users for a long time. Doesn't own the StarRocks code base.
 
 ## Contribute
 
