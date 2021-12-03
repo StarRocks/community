@@ -23,13 +23,13 @@ actively participate in every public discussion, and work hard to overcome every
 this is love. We look forward to you becoming one of them and passing on your love to others.
 
 ## Governance
-**Project Management Committee**:StarRocks project maintainer, responsible for project planning, design, governance, 
++ **Project Management Committee**:StarRocks project maintainer, responsible for project planning, design, governance, 
 and maintenance of core contributors to the community.  
 
-**Developer group**:Developers and community contributors of the StarRocks project, to communicate, promote, organize and 
++ **Developer group**:Developers and community contributors of the StarRocks project, to communicate, promote, organize and 
 collaborate to complete the implementation and maintenance of new functions of the project, and solve user problems.  
 
-**User group**:The user organization of the StarRocks project is a group used to promote the exchange and 
++ **User group**:The user organization of the StarRocks project is a group used to promote the exchange and 
 discovery of information related to a large number of users for a long time. Does not own the StarRocks code base.
 
 ## Contribute
