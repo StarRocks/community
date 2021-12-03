@@ -32,7 +32,7 @@ collaborate to complete the implementation and maintenance of new functions of t
 **User group**:The user organization of the StarRocks project is a group used to promote the exchange and 
 discovery of information related to a large number of users for a long time. Does not own the StarRocks code base.
 
-## Community contribution
+## Contribute
 
 There are five types of starrocks' community contributions, including：
 
@@ -46,5 +46,8 @@ There are five types of starrocks' community contributions, including：
 
 5. Participate / organize community communication
 
+## Communicating
 
+In the starrocks community, developers and users can discuss relevant technical details and bug fixes in real time through slack.
++ [**Slack**](https://join.slack.com/t/starrocks/shared_invite/zt-z5zxqr0k-U5lrTVlgypRIV8RbnCIAzg)
 
