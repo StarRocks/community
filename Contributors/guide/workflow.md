@@ -66,7 +66,3 @@ git add . (add new and modified files, not including deleted files)
 After the PR is submitted, it will be reviewed by at least 2 reviewers. 
 
 The reviewer need to confirm that it is correct, and the maintainers of StarRocks will merge your pull request after accepting the final changes.
-
-
-Congratulations on becoming StarRocks contributor!
-
