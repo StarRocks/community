@@ -1,4 +1,4 @@
-# StarRocks Github workflow
+# StarRocks github workflow
 >For this workflow we refer to CommunityLeadershipDevelopment's [doc_guide](https://github.com/CommunityLeadershipDevelopment/doc_guide/blob/main/CONTRIBUTING.md), and we thank [Jennifer Huang](https://github.com/Jennifer88huang-zz) for her contribution
 
 The starrocks project uses the GitHub workflow overview, which includes some tips and suggestions, such as keeping the local environment 
