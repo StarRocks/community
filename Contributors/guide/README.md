@@ -11,7 +11,7 @@ StarRocks is a Source Available project. Everyone can contribute to it in a way 
 ### How to contribute
 There are six types of community contributions from starrocks, including:
 1. Find problems and requirements, and [how to file an issue](https://github.com/StarRocks/community/blob/main/Contributors/guide/file%20an%20issue.md);
-3. How to [Open a pull request](https://github.com/StarRocks/community/blob/main/Contributors/guide/workflow.md), if you want to add a new feature/bug fixes;
+3. How to [open a pull request](https://github.com/StarRocks/community/blob/main/Contributors/guide/workflow.md), if you want to add a new feature/bug fixes;
 4. [Document improvement](https://github.com/StarRocks/community/blob/main/Contributors/guide/doc%20improvements.md);
 5. Help solve [community problems](https://github.com/StarRocks/community/blob/main/Contributors/guide/Solve%20issues.md) and find out what problems you can solve
 6. Participate in or organise [community activities](https://github.com/StarRocks/community/blob/main/Contributors/guide/community-%20activity.md)
