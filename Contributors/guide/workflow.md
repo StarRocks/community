@@ -38,10 +38,14 @@ $ git push origin main
 + Create branch based on master  
  `$ git checkout -b myfeature`
  
-## Step5 Modify content or code
+## Step5 Setting up the development environment
++ Setting up the FE development environment: StarRocks FE Development Environment Setup
++ Setting up the BE development environment:StarRocks BE Development Environment Setup
+ 
+## Step6 Modify content or code
 + Now you can modify the content or code in your newly created branch
 
-## Step6 Commit
+## Step7 Commit
 + Commit your changes
 ```
 $ git add <filename>
@@ -55,15 +59,18 @@ git add -a -m "$add a comment" (add and commit modified and deleted files)
 git add -u (add modified and deleted files, not include new files)
 git add . (add new and modified files, not including deleted files)
 ```
-## Step7 Push
+## Step8 Push
 + After completing the change, you need to push the changed content to the remote repo of your fork.   
 `$ git push origin myfeature`
 
-## Step8 pull request
+## Step9 pull request
 + Visit the repository of your fork https://github.com/$user/starrocks.
 + Click `Compare & pull request`
 
-## Step 9: Review and Merge
+## Step 10: Review and Merge
 After the PR is submitted, it will be reviewed by at least 2 reviewers. 
-
 The reviewer need to confirm that it is correct, and the maintainers of StarRocks will merge your pull request after accepting the final changes.
+
+## Step10: Wait and check the CI passes
+
+Once the PR is submitted, StarRcoks will automatically trigger a CI where the Required check must pass, and if a check does not pass, you can click on the Details link to see the details.
