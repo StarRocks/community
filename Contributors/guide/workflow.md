@@ -72,5 +72,5 @@ After the PR is submitted, it will be reviewed by at least 2 reviewers.
 The reviewer need to confirm that it is correct, and the maintainers of StarRocks will merge your pull request after accepting the final changes.
 
 ## Step10: Wait and check the CI passes
-
+![](https://github.com/StarRocks/community/blob/main/Contributors/guide/picture/ci.png)
 Once the PR is submitted, StarRcoks will automatically trigger a CI where the Required check must pass, and if a check does not pass, you can click on the Details link to see the details.
