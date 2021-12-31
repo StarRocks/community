@@ -67,10 +67,10 @@ git add . (add new and modified files, not including deleted files)
 + Visit the repository of your fork https://github.com/$user/starrocks.
 + Click `Compare & pull request`
 
-## Step 10: Review and Merge
+## Step10: Review and Merge
 After the PR is submitted, it will be reviewed by at least 2 reviewers. 
 The reviewer need to confirm that it is correct, and the maintainers of StarRocks will merge your pull request after accepting the final changes.
 
-## Step10: Wait and check the CI passes
+## Step11: Wait and check the CI passes
 ![](https://github.com/StarRocks/community/blob/main/Contributors/guide/picture/ci.png)
 Once the PR is submitted, StarRcoks will automatically trigger a CI where the Required check must pass, and if a check does not pass, you can click on the Details link to see the details.
