@@ -2,17 +2,16 @@
 Welcome to the StarRocks community!
 This is the starting point for joining and contributing to the StarRocks community,improving code, docs,giving talks etc.
 
-## Community Creed
+## Culture and Values
 * ### Tolerant and gather strength
-The community will listen carefully to the voice of every member, whether it is technical 
-discussions or communication about community culture, everyone can have different opinions and 
-ideas (but this does not include attacks and discrimination against individuals, regardless of Nationality, religion, gender, etc.), 
+The community will listen carefully to the voice of every person, whether it is about code or community culture, everyone can have different opinions and 
+ideas (but this does't include attacks and discrimination against individuals, regardless of Nationality, religion, gender, etc.), 
 the community always pursues the tremendous power brought by "Many hands make light work", which will lead the community to continue
 to improve and move forward.
 
 * ### Contribution brings growth, growth promotes success
 The community welcomes and recognizes any form of contribution (new requirements, solutions, technical evangelism, etc.), 
-not just code contributions. Every contribution is a growth for every member of the community. At the same time, 
+not just code. Every contribution is a growth for every member of the community. At the same time, 
 continuous contribution also gives the community a strong vitality. This is a virtuous circle of common growth. Because of this, 
 we believe that while the community is successful, it can also bring success to contributors.
 
