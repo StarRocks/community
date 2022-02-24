@@ -1,5 +1,5 @@
 # The development configuration setup for StarRocks on Clion
-The BE part of StarRocks is developed in C++ and the development platform that we can use is Clion.This article describes how to configure Clion and the Deployment function which is used to synchronise the code to a remote development machine.
+The BE part of StarRocks is developed in C++ and the development platform that we can use is Clion. This article describes how to configure Clion and the Deployment function which is used to synchronise the code to a remote development machine.
 ## Use Clion to load StarRocks code
 The construction of Clion's code tree relies on the CMakeLists file under the root path of the project. StarRocks itself is compiled via CMake, but the CMakeList contains various third party libraries, in order that the Clion cannot parse & compile CMakeLists properly. Here is a simple way to bypass：
 1. Add the entire StarRocks root path in Clion，as shown in the following picture：
