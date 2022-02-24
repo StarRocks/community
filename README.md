@@ -1,6 +1,6 @@
 # StarRocks Community
 Welcome to the StarRocks community!
-This is the starting point for joining and contributing to the StarRocks community,improving code, docs,giving talks etc.
+This is the starting point for joining and contributing to the StarRocks community, improving code, docs,giving talks etc.
 
 ## Culture and Values
 * ### Tolerant and gather strength
