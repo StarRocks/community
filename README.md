@@ -12,7 +12,7 @@ Code is power. Community is strength. Together we create magic!
 ## Communicating
 The fastest way to learn is by participating! Join the conversations to get support and support others!
 
-[Slack (EN)](https://join.slack.com/t/starrocks/shared_invite/zt-z5zxqr0k-U5lrTVlgypRIV8RbnCIAzg) |  [Forum (CN)](https://forum.starrocks.com/)  | [Issues](https://github.com/StarRocks/starrocks/issues) | [Twitter](https://twitter.com/StarRocksLabs)  | [Blogs & Events](https://www.starrocks.com/) 
+[Slack (EN)](https://join.slack.com/t/starrocks/shared_invite/zt-z5zxqr0k-U5lrTVlgypRIV8RbnCIAzg) |  [Forum (CN)](https://forum.starrocks.com/)  | [Issues](https://github.com/StarRocks/starrocks/issues) |🐦 [Twitter](https://twitter.com/StarRocksLabs)  | [Blogs & Events](https://www.starrocks.com/) 
 
 </br>
 
@@ -118,11 +118,11 @@ For more information, see what is [CLA](https://en.wikipedia.org/wiki/Contributo
 
 If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
+<img style="float: right;" src="https://github.com/kateshaowanjou/community-1/blob/main/Contributors/guide/create%20PR.png" alt="create a pull request" />
 
 Now submit the pull request.
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
+<img style="float: right;" src="https://github.com/kateshaowanjou/community-1/blob/main/Contributors/guide/open%20PR.png" alt="submit pull request" />
 
 Soon your changes will be merging into the master branch. You will get a notification email once the changes have been merged.
 
