@@ -24,7 +24,7 @@ Follow the steps below to learn how it works:
 
 ## Step 1: Fork this repository
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
+<img align="right" width="300" src="https://github.com/kateshaowanjou/community-1/blob/main/Contributors/guide/fork.png" alt="fork this repository" />
 Fork this repository by clicking on the fork button on the top of this page.
 This will create a copy of this repository in your account.
 
@@ -42,7 +42,7 @@ git clone "url you just copied"
 
 where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
+<img align="right" width="300" src="https://github.com/kateshaowanjou/community-1/blob/main/Contributors/guide/clone.png" alt="copy URL to clipboard" />
 
 For example:
 
