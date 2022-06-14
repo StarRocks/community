@@ -1,4 +1,5 @@
-# The development configuration setup for StarRocks on IDEA
+# Setup StarRocks FE development environment on IDEA
+
 ## The development tool: IDEA
 
 This article mainly focuses on IDEA's deployment function, which can be used to sync the local code automatically to the remote repository. Using IDEA to do the development will be more  convenient than vim whether for reading code or doing code jump.
