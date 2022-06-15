@@ -52,12 +52,26 @@ There are several ways you can build the thrift/protobuf. Two common methods are
 1. Generate code in IDE directlly.
 2. Copy the compiled java class directly then add the dependencies manually.
 
-### Generate in IDEA
+### Generate local
+
+#### thrift
 
 Right click on `fe/fe-core/pom.xml`, then 'click' on `Run Maven -> Plugins -> maven-thrift-plugin -> thrift::compile`.
 Then the thrift files will be compiled and the coresponding Java files will be generated.
 
+#### proto
+
+You should enter the directory `${STARROCKS_HOME}/fe/fe-core` and execute the following command to compile proto files into
+Java sources.
+
+```
+mvn exec:exec@make-dir
+mvn exec:exec@gensrc
+mvn exec:exec@gen_proto
+```
+
 Then you can reload you project to include needed generated source files.
+
 
 ### Copy Gensrc
 Firstly, compile the FE on the development machine, find the path : fe/fe-core/target/generated-sources and copy this directory to the local starrocks directory.
