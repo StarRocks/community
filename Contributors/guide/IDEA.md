@@ -1,5 +1,37 @@
 # Setup StarRocks FE development environment on IDEA
 
+## Requirements
+
+### thrift compiler
+
+Now, StarRocks needs thrift 0.13.x. So you need to install thrift-0.13.0 first.
+
+#### Mac
+
+On Mac you can install it with the following steps.
+
+```
+brew tap-new $USER/local-tap
+brew extract --version='0.13.0' thrift $USER/local-tap
+brew install thrift@0.13.0
+```
+After installing thrift successfully, you can check by executing following command in command-line.
+
+```
+$ thrift -version
+Thrift version 0.13.0
+```
+
+### Maven Helper plugin
+
+You'd better to install `Maven Helper` plugin in IDEA, in order to generate thrift code easily. You can find it through
+
+```
+Intellij IDEA -> Preferences... -> Plugins
+```
+
+Search `Maven Helper` in plugins marketplace, then hit `install`. After installing, you need to restart you IDE.
+
 ## The development tool: IDEA
 
 This article mainly focuses on IDEA's deployment function, which can be used to sync the local code automatically to the remote repository. Using IDEA to do the development will be more  convenient than vim whether for reading code or doing code jump.
@@ -17,10 +49,16 @@ After you finish the setup, there will still be some error messages in the proje
 ## GenSrc（thrift/protobuf/build-in）
 
 There are several ways you can build the thrift/protobuf. Two common methods are as follows:
-1. Modify the POM and compile the FE locally.
+1. Generate code in IDE directlly.
 2. Copy the compiled java class directly then add the dependencies manually.
 
-Here is the detailed description of the 2nd method:
+### Generate in IDEA
+
+Right click on `fe/fe-core/pom.xml`, then 'click' on `Run Maven -> Plugins -> maven-thrift-plugin -> thrift::compile`.
+Then the thrift files will be compiled and the coresponding Java files will be generated.
+
+Then you can reload you project to include needed generated source files.
+
 ### Copy Gensrc
 Firstly, compile the FE on the development machine, find the path : fe/fe-core/target/generated-sources and copy this directory to the local starrocks directory.
 Then open File -> Project Structure as is shown is the following picture:
