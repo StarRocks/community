@@ -30,6 +30,7 @@ Active contributors are contributors who have made outstanding contributions and
 ### How to become an Active Contributor?
 
 -   Have 5 merged PRs or fixed major bugs
+-   Participate in more than 5 code reviews
 -   Actively participate in community events such as online/offline meetups and community discussions
 
 ### Responsibilities and privileges:
