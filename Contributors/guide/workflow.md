@@ -40,7 +40,7 @@ $ git push origin main
  
 ## Step5 Setting up the development environment
 + [Setting up the FE development environment](https://github.com/StarRocks/community/blob/main/Contributors/guide/IDEA.md)
-+ [Setting up the BE development environmen](https://github.com/StarRocks/community/blob/main/Contributors/guide/Clion.md)
++ [Setting up the BE development environment](https://github.com/StarRocks/community/blob/main/Contributors/guide/Clion.md)
  
 ## Step6 Modify content or code
 + Now you can modify the content or code in your newly created branch
