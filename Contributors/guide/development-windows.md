@@ -12,7 +12,7 @@ To build the development environment of StarRocks FE in Windows OS, you must hav
 
 2. Download [JDK 1.8.0](https://www.oracle.com/java/technologies/downloads/), and specify the environment variable `JAVA_HOME` as the directory of JDK.
 
-![Specify JAVA_HOME](java_home.png)
+![Specify JAVA_HOME](../guide/picture/java_home.png)
 
 3. Install [Python 3](https://www.python.org/downloads/) (3.10.5 or higher). Make sure to tick **Add Python to PATH** while installing Python.
 
