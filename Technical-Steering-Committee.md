@@ -37,7 +37,7 @@ Technical TSC (TSC) is a group responsible for providing overall leadership, str
 | Heng Zhao     | dshadowzh    | Member |
 | Gaungxu Cheng | guangxuCheng | Member |
 | Wei Zhou      | choury       | Member |
-
+| Jingwei Lu    |              | Member |
 
 
 ### **Elections**
