@@ -28,7 +28,7 @@ Technical TSC (TSC) is a group responsible for providing overall leadership, str
 | Public Name   | GitHub ID    | Role   |
 | ------------- | ------------ | ------ |
 | Alvin Zhao    | imay         | Chair  |
-| Allen Li      | chaoyli      | Member |
+| Chaoyong Li   | chaoyli      | Member |
 | Kaisen Kang   | kangkaisen   | Member |
 | Kai Ding      | tracymacding | Member |
 | Xiaohua Liu   | trueeyu      | Member |
