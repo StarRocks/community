@@ -31,6 +31,8 @@ The fastest way to learn is by participating! Join the conversations to get supp
 
 💬[Slack (EN)](https://join.slack.com/t/starrocks/shared_invite/zt-z5zxqr0k-U5lrTVlgypRIV8RbnCIAzg) | 📝 [Forum (CN)](https://forum.starrocks.com/)  | ❓[Issues](https://github.com/StarRocks/starrocks/issues) |🐦 [Twitter](https://twitter.com/StarRocksLabs)  | 📆[Blogs & Events](https://www.starrocks.com/) 
 
+👥 [Developer Group](https://groups.google.com/g/starrocks-dev) Please join the Google Groups to discuss StarRocks features, project directions, issues, pull requests, or share suggestions.
+
 </br>
 
 ## Governance
