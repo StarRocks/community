@@ -7,7 +7,7 @@
 | Kaisen Kang   | kangkaisen   | Maintainer|
 | Xiaohua Liu   | trueeyu      | Maintainer|
 
-### **Committer**（26）
+### **Committer**（27）
 
 | Public Name   | GitHub ID      | Role     |
 | ------------- | ------------   | -------- |
@@ -18,7 +18,7 @@
 | Qiang Zhang   | sevev          | Committer|
 | Yanbo Wang    | wyb            | Committer|
 | Satanson Ran  | satanson       | Committer|
-| Riyu Wang     | miommiocat     | Committer|
+| Riyu Wang     | miomiocat      | Committer|
 | Hawk Lau      | ZiheLiu        | Committer|
 | Final Feng    | stdpain        | Committer|
 | Xueyan Lee    | Astralidea     | Committer|
@@ -37,3 +37,4 @@
 | Calvin He     | liuyehcf       | Committer|
 | kejian Ju     | Jay-ju         | Committer|
 | Jijun Du      | dujijun007     | Committer|
+| Xianhai Li    | smartlxh       | Committer|
