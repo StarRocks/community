@@ -1,4 +1,4 @@
-### **Maintainer**（4）
+### **Maintainers**（4）
 
 | Public Name   | GitHub ID    |   Role    |
 | ------------- | ------------ | ----------|
@@ -7,7 +7,7 @@
 | Kaisen Kang   | kangkaisen   | Maintainer|
 | Xiaohua Liu   | trueeyu      | Maintainer|
 
-### **Committer**（27）
+### **Committers**（29）
 
 | Public Name   | GitHub ID      | Role     |
 | ------------- | ------------   | -------- |
@@ -21,10 +21,10 @@
 | Riyu Wang     | miomiocat      | Committer|
 | Hawk Lau      | ZiheLiu        | Committer|
 | Final Feng    | stdpain        | Committer|
-| Xueyan Lee    | Astralidea     | Committer|
+| Xueyan Li     | Astralidea     | Committer|
 | Tony Xia      | nshangyiming   | Committer|
 | Kangping Huang| ABingHuang     | Committer|
-| Shuming Lee   | LiShuMing      | Committer|
+| Shuming Li    | LiShuMing      | Committer|
 | Kang Zhou     | caneGuy        | Committer|
 | Wei  Zhou     | choury         | Committer|
 | Binglin Chang | decster        | Committer|
@@ -38,3 +38,5 @@
 | kejian Ju     | Jay-ju         | Committer|
 | Jijun Du      | dujijun007     | Committer|
 | Xianhai Li    | smartlxh       | Committer|
+| Xiangguang Yan| xiangguangyxg  | Committer|
+| Mervin Hu     | meegoo         | Committer|
