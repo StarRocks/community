@@ -1,11 +1,11 @@
 ### **Maintainers**（4）
 
-| Public Name   | GitHub ID    |   Role    |
-| ------------- | ------------ | ----------|
-| Alvin Zhao    | imay         | Maintainer|
-| Chaoyong Li   | chaoyli      | Maintainer|
-| Kaisen Kang   | kangkaisen   | Maintainer|
-| Xiaohua Liu   | trueeyu      | Maintainer|
+| Public Name   | GitHub ID       |   Role    |
+| ------------- | --------------- | ----------|
+| Alvin Zhao    | alvin-celerdata | Maintainer|
+| Chaoyong Li   | chaoyli         | Maintainer|
+| Kaisen Kang   | kangkaisen      | Maintainer|
+| Xiaohua Liu   | trueeyu         | Maintainer|
 
 ### **Committers**（29）
 
