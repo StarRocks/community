@@ -30,7 +30,7 @@ upstream  https://github.com/StarRocks/starrocks (push)
 ```
 $ cd $working_dir/starrocks
 $ git checkout main
-$ git fetch main
+$ git fetch upstream
 $ git rebase upstream/main
 $ git push origin main 
 ```
