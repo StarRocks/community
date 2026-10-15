@@ -69,7 +69,23 @@ No StarRocks object lock is needed: same-MV refreshes are serialized by the task
 
 Full refresh, non-partitioned storage, all-Iceberg base tables; manual and scheduled refresh; freshness = the standard `RefreshState`. REST catalog only; gated by a feature flag (default off).
 
-## 6. Open question for the SIG: incremental refresh
+## 6. Refresh strategies (blind / shallow / deep)
+
+The spec standardizes the freshness *state*; the *refresh strategy* — how an engine acts on that state — is deliberately engine-specific. Three granularities:
+
+1. **Blind full refresh** — always recompute and overwrite the whole `<mv>__storage`, ignoring the recorded state. Simplest, wasteful. (What the initial scope does.)
+2. **Shallow refresh ("did any source change?")** — read `RefreshState` and compare each recorded `snapshot-id`/`ref` against the source's current snapshot; if none advanced, the MV is fresh and the refresh is skipped, otherwise recompute (full). This is **directly supported by the spec's per-table `source-states`** — no extra state, just a read-and-compare — and it stays fully interoperable.
+3. **Deep refresh (partition-level incremental)** — recompute only the partitions whose source partitions changed, via the base tables' snapshot deltas. This is **beyond what the spec's `RefreshState` expresses** (per source table, no per-partition info), so it requires engine-specific additions: (a) extra state — per-partition / snapshot-delta tracking plus the MV-partition↔base-partition mapping — and (b) partition-change detection + partition-scoped overwrite logic.
+
+| Granularity | Spec provides the state? | Extra engine logic? |
+|---|---|---|
+| Blind full | n/a (ignored) | trivial |
+| Shallow (table changed?) | yes — per-table `snapshot-id` | read + compare |
+| Deep (partition-level) | no — per-table only | per-partition state + delta logic |
+
+The spec standardizes freshness *interchange* (so any engine can at least do shallow) and leaves the refresh algorithm — including deep/partition-level incremental, StarRocks' signature strength — to the engine. That is what makes the incremental choice (§7) the one real architectural fork.
+
+## 7. Open question for the SIG: incremental (deep) refresh
 
 Incremental (partition-change-tracking) refresh is one of StarRocks' most valuable MV features. In the current codebase it relies on per-partition version maps that live on the local `MaterializedView`. With the MV owned by the IRC, the spec's `RefreshState` is **per source table** (one snapshot id per source), not per partition — so it can express a coarse fresh/stale verdict but not "which partitions changed."
 
@@ -82,12 +98,12 @@ Questions:
 - Is there appetite for a StarRocks extension to the snapshot summary to carry per-partition freshness?
 - Any guidance on decoupling the partition-change-tracking logic from the local `MaterializedView`?
 
-## 7. Phasing
-1. **This proposal** — CREATE/DROP/RENAME + full refresh writing `RefreshState`.
-2. Freshness-aware **query rewrite** (reading `RefreshState`).
-3. **Incremental / partition-level** refresh (per §6).
+## 8. Phasing
+1. **This proposal** — CREATE/DROP/RENAME + **blind full** refresh writing `RefreshState`.
+2. **Shallow refresh** (skip-if-unchanged by reading `RefreshState`) + freshness-aware **query rewrite**.
+3. **Deep / partition-level incremental** refresh (per §7).
 
-## 8. Compatibility & limitations
+## 9. Compatibility & limitations
 - Requires a REST catalog whose server understands the MV spec (persists the view `storage-table` field + snapshot-summary); a stock server would drop the linkage.
 - Not mergeable until the Iceberg MV spec is released; this is a prototype to be ready when it lands.
 - Behavior is unit-tested; end-to-end validation against a live MV-aware REST catalog is pending.
